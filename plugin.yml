@@ -1,0 +1,18 @@
+name: Edibles
+main: com.vanwaarda.Edibles.Core
+version: 1.0.0
+description: Vanwa-arda custom food variables.
+load: POSTWORLD
+author: ShadowSplicer
+website: https://vanwa-arda.com/
+
+commands:
+  food:
+    description: Gives more information on the food you're holding
+    usage: /food
+    permission: edibles.command
+    permission-message: You don't have permission to do that.
+permissions:
+  edibles.command:
+    description: Lets you get food info
+    default: true
